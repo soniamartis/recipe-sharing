@@ -1,0 +1,199 @@
+body{
+		  margin:0;
+		  
+		  background:#232323;
+		  overflow-x:hidden;#hides the horizontal scrollbar
+		  position:relative;
+		}
+		 .menu-bar{
+		  position:fixed;
+		  width:100%;
+		  height:60px;
+		  background:rgba(0,0,0,0.5);
+		  margin:0;
+		  z-index:10;
+		 }
+		 
+		 .links{
+		   float:right;
+		   margin:0px 10px 0px 0px;
+		   height:100%;
+		   
+		 }
+		 .down, .not_down{
+		 display:inline;
+		 }
+		 
+		 .links form{
+		   display:inline;
+		 }
+		 
+		 .links form input{
+		  padding:5px 10px 5px 5px;
+		   font-family:sans-serif;
+		   font-size:20px;
+		   color:rgba(211,211,211,1);
+		 }
+		 
+		 
+		.links a{
+		  padding:5px 10px;
+		  font-family:sans-serif;
+		  font-size:20px;
+		  text-decoration:none;
+		  color:rgba(255,255,255,1);
+		  background:#1a52ff;
+		 }
+		 
+	     header{
+		  background:url("../images/background3.jpg");
+		  width:100%;
+		  background-size:cover;
+		  #background-position:center;
+		  background-repeat:no-repeat ;
+		  height:500px; /*this solved the problem of img for me*/
+		 
+		  z-index:1;
+		 }
+		 
+		 .container{
+		  height:100%;
+		  margin-left:auto;
+		  margin-right:auto;
+		  background:white;
+		  width:80%;
+		  z-index:5;
+		  margin-top:-25%;
+		  margin-bottom:50px;
+		 }
+		 
+		 .article_container{
+		   float:left;
+		   width:70%;
+		   height:100%;
+		   margin:0;
+		   overflow:auto; 
+		   
+		 }
+		 
+		 .related-posts{
+		   float:right;
+		   width:29%;
+		   margin:0;
+		   height:100%;
+		   border-left:2px solid black;
+		   overflow:auto;
+		 }
+		 
+		
+		 .related-posts li a{
+		    text-decoration:none;
+			color:black;
+		 }
+		 
+		 .related-posts h3{
+		  text-align:center;
+		 }
+		 
+		 h2{
+		   text-align:center;
+		   font-family:sans-serif;
+		   font-weight:bold;
+		 }
+		 
+		 .article_container{
+		    height:100%;
+			margin:0 ;
+			width:70%;
+			
+		 }
+		 .articles-box{
+		    width:80%;
+			#background:red;
+			margin:0 auto;
+			overflow:hidden;
+		 }
+		 
+		
+		 
+		 
+		 article{
+		    width:100%;
+			margin:0;
+			height:20%;
+			background:black;
+			margin-top:10px;
+		 }
+		 
+		 .image-container{
+		    width:20%;
+			height:95%;
+			background:black;
+			margin-top:3px;
+			margin-left:4px;
+			
+			float:left;
+		 }
+		 
+		 .recipe-metadata{
+		    float:left;
+			background:white;
+			margin-top:3px;
+			margin-left:4px;
+			width:78%;
+			height:95%;
+			
+		 }
+		 .recipe-metadata h3,p{
+		    margin-left:5px;
+		 }
+		 
+		  img{
+		   width:100%;
+		   height:100%;
+		  }
+		 article a{
+		   text-decoration:none;
+		 }
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		  .container{
+		 
+		  width:90%;
+		  height:auto;
+		  position:relative;
+		  top:-50%;
+		  border-radius:5%;
+		  margin-top:0;
+		  margin-bottom:0;
+		 }
+		 
+		 .article_container{
+		   display:block;
+		   width:100%;
+		   border-radius:5%;
+		   height:auto;
+		   overflow:hidden;
+		   position:auto;
+		   background:white;
+		   margin-bottom:10px;
+		   padding-bottom:10px;
+		 }
+		 
+		 .related-posts{
+		   display:block;
+		   width:100%;
+		   background:white;
+		   margin-top:10px;
+		   margin-bottom:0;
+		   height:auto;
+		   border-radius:5%;
+		  
+		 }
